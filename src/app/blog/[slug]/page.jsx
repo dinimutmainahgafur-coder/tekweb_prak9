@@ -1,5 +1,12 @@
-import Link from 'next/link';
-import { posts } from '../../../data/posts';
+import Link from "next/link";
+import { posts } from "../../../data/posts";
+
+// ⬇️ Tambahkan ini
+export async function generateStaticParams() {
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
 
 export default function BlogDetail({ params }) {
   const { slug } = params;

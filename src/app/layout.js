@@ -1,5 +1,5 @@
 import './globals.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'; // ✅ BENAR
 
 export const metadata = {
   title: 'Blog Next.js Saya',
@@ -9,10 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
-      <body className="bg-gray-100 text-gray-900">
+      <body className="bg-gray-50 text-gray-900">
         <Navbar />
-
-        <main className="container mx-auto p-6">
+        <main className="container mx-auto p-4">
           {children}
         </main>
       </body>

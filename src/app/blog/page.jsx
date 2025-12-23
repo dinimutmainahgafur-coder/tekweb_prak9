@@ -6,7 +6,6 @@ export default function BlogPage() {
     <section className="min-h-screen bg-gray-50 py-12">
       <div className="container mx-auto px-4">
 
-        {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-3">
             Blog & Artikel
@@ -16,8 +15,7 @@ export default function BlogPage() {
             yang mudah dipahami untuk mahasiswa.
           </p>
         </div>
-
-        {/* Blog List */}
+        
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((post) => (
             <div
