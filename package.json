@@ -2,7 +2,7 @@
   "name": "tekweb-prak9",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dinimutmainahgafur-coder.github.io/TEKWEB_Prak9",
+  "homepage": "https://dinimutmainahgafur-coder.github.io/tekweb_prak9",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
