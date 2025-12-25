@@ -6,10 +6,12 @@ import { usePathname } from 'next/navigation';
 export default function Navbar() {
   const pathname = usePathname();
 
+  const cleanPath = pathname.replace('/tekweb_prak9', '');
+
   const isActive = (path) =>
     path === '/'
-      ? pathname === '/'
-      : pathname.startsWith(path);
+      ? cleanPath === '/'
+      : cleanPath.startsWith(path);
 
   return (
     <nav className="bg-gray-800 px-8 py-4 flex gap-6 shadow-md">
