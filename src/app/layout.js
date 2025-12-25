@@ -11,9 +11,15 @@ export default function RootLayout({ children }) {
     <html lang="id">
       <body className="bg-gray-100 text-gray-900">
         <nav className="p-4 bg-gray-700 shadow-md flex gap-4">
-          <Link href="/" className="font-bold text-blue-600">Home</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/about">About</Link>
+          <Link href="/tekweb_prak9" className="font-bold text-blue-600">
+            Home
+          </Link>
+          <Link href="/tekweb_prak9/blog">
+            Blog
+          </Link>
+          <Link href="/tekweb_prak9/about">
+            About
+          </Link>
         </nav>
 
         <main className="container mx-auto p-4">
