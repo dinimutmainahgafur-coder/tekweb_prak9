@@ -5,22 +5,22 @@ export const posts = [
     title: 'Belajar Next.js Dasar',
     author: 'Admin',
     date: '2025-01-10',
-    content: 'Next.js adalah framework React yang dapat membangun web yang terstruktur, cepat, dan mudah dikembangkan, terutama untuk aplikasi modern'
+    content: 'Next.js adalah framework React...'
   },
   {
     id: 2,
-    slug: 'routing',
-    title: 'Routing ',
-    author: 'Tim Editorial',
+    slug: 'routing-mudah',
+    title: 'Routing Sangat Mudah',
+    author: 'Din',
     date: '2025-01-12',
-    content: 'Routing adalah mekanisme untuk menentukan halaman mana yang ditampilkan berdasarkan URL yang diakses pengguna. Pada Next.js dengan App Router, sistem routing berbasis folder memungkinkan pengembang membuat halaman secara otomatis hanya dengan menyusun struktur direktori, sehingga pengelolaan navigasi menjadi lebih terstruktur dan mudah dipahami'
+    content: 'Cukup buat folder, jadi deh rute...'
   },
   {
     id: 3,
     slug: 'server-components',
     title: 'Apa itu Server Components?',
-    author: 'Tim Development',
+    author: 'Guest Writer',
     date: '2025-01-15',
-    content: 'Server Components adalah komponen React yang dirender di server, bukan di browser. Dengan Server Components, Next.js mengirimkan HTML yang sudah siap ditampilkan'
+    content: 'React Server Components merender UI di server...'
   },
 ];
