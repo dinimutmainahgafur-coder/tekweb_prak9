@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import { posts } from '../../../data/posts';
 
-// ⬇️ WAJIB: agar slug menjadi static
+
 export function generateStaticParams() {
   return posts.map((post) => ({
     slug: post.slug,
@@ -33,12 +34,12 @@ export default function BlogDetail({ params }) {
       </div>
 
       <br />
-      <a
+      <Link
         href="/tekweb_prak9/blog"
         className="text-blue-600 hover:underline"
       >
         ← Kembali ke Daftar
-      </a>
+      </Link>
     </article>
   );
 }

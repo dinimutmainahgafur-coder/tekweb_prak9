@@ -1,9 +1,11 @@
+const isProd = process.env.NODE_ENV === "production";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",              
-  basePath: "/tekweb_prak9",      
+  output: "export",
+  basePath: isProd ? "/tekweb_prak9" : "",
   images: {
-    unoptimized: true,           
+    unoptimized: true,
   },
 };
 

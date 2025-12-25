@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
 
         <Image
           className="mb-10 dark:invert"
-          src="/tekweb_prak9/next.svg"
+          src="/next.svg"
           alt="Next.js Logo"
           width={120}
           height={30}
@@ -37,29 +38,30 @@ export default function Home() {
         </p>
 
         <div className="flex gap-4">
-          <a
-            href="/tekweb_prak9/blog"
+          <Link
+            href="/blog"
             className="flex items-center gap-2 rounded-full bg-black text-white px-6 py-3 hover:bg-zinc-800 dark:bg-white dark:text-black"
           >
             <Image
               className="dark:invert"
-              src="/tekweb_prak9/vercel.svg"
+              src="/vercel.svg"
               alt="Vercel Logo"
               width={16}
               height={16}
             />
             Deploy Now
-          </a>
+          </Link>
 
-          <a
-            href="/tekweb_prak9/about"
+          <Link
+            href="/about"
             className="rounded-full border border-black px-6 py-3 hover:bg-zinc-100 dark:border-white dark:hover:bg-zinc-900"
           >
             Documentation
-          </a>
+          </Link>
         </div>
 
       </main>
     </div>
   );
 }
+ 
